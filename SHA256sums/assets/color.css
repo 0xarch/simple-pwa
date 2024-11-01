@@ -1,0 +1,26 @@
+:root {
+    --header-bg: #000;
+    --header-col: #fff;
+
+    --main-bg: #222;
+    --main-col: #fff;
+
+    --footer-bg: #000;
+    --footer-col: #fff;
+
+    --button-bg: #fff;
+    --button-col: #000;
+}
+
+@media(prefers-color-scheme:light) {
+    :root {
+        --header-bg: #fff;
+        --header-col: #000;
+
+        --main-bg: #fff;
+        --main-col: #000;
+
+        --button-bg: #000;
+        --button-col: #fff;
+    }
+}

@@ -1,0 +1,52 @@
+.text-container {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.text-container .t-text {
+    border-radius: 4px;
+    min-height: 8rem;
+    border: none;
+    box-shadow: 0px 2px 4px #8887;
+    width: 100%;
+    padding: 4px;
+    word-break: break-all;
+    display: block;
+    resize: none;
+    background: var(--main-bg);
+    color: var(--main-col);
+}
+
+.deco.deco-rarr {
+    flex: 1;
+    text-align: center;
+}
+
+.operation {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 12px;
+}
+
+.operation .oper {
+    border-radius: .75rem;
+    border: none;
+    padding: .75rem 1rem;
+    font-weight: bold;
+    background-color: var(--button-bg);
+    color: var(--button-col);
+    transition: box-shadow .15s ease-in-out;
+}
+
+.operation .oper:hover {
+    box-shadow: 0 0 10px var(--button-bg);
+}
+
+.frame.frame-footer {
+    padding: 8px;
+    gap: 12px;
+}

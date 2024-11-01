@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/basic_frame.css">
+    <link rel="stylesheet" href="assets/app.css">
+    <meta id="meta-theme-color" name="theme-color" content="black">
+    <script src="./service_worker.js"></script>
+    <script src="./app.js"></script>
+    <title>SHA256 加密</title>
+</head>
+
+<body>
+    <header class="frame frame-header">
+        <h1>SHA256</h1>
+    </header>
+    <main class="frame frame-main">
+        <div class="label">
+
+        </div>
+        <div class="encrypt">
+            <div class="text-container">
+                <textarea name="ninput" id="main-input" class="t-text input"></textarea>
+                <div class="deco deco-rarr"> &rarr; </div>
+                <span id="main-output" class="t-text output"></span>
+            </div>
+            <div class="operation">
+                <button class="oper" onclick="App.JS.encrypt()">加密</button>
+                <button class="oper" onclick="App.JS.copy()">复制</button>
+                <button class="oper" onclick="App.JS.clear()">清除</button>
+            </div>
+        </div>
+        <div class="other">
+
+        </div>
+    </main>
+    <footer class="frame frame-footer">
+        <span>SHA256sums App</span>
+        <span>Package: io.soloev.sha256sums</span>
+    </footer>
+</body>
+
+</html>
